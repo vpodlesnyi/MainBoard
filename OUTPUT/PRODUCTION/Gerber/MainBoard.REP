@@ -2,54 +2,24 @@
 FileName = MainBoard.GBR
 AutoAperture = True
 *************************************************************
-Generating : Keep-Out Layer
-      File : MainBoard.GKO
+Generating : Top Signal Layer
+      File : MainBoard.GTL
 
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D173
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : MainBoard.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D11
-    D16
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : MainBoard.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Signal Layer
+    Adding Layer      : Top Signal Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D24
-    D25
-    D27
-    D28
-    D29
-    D31
-    D32
-    D38
-    D43
-    D44
-    D69
+    D10
+    D11
+    D14
+    D15
+    D20
+    D71
+    D74
+    D75
     D79
-    D80
-    D81
     D82
     D83
     D84
@@ -62,10 +32,252 @@ Used DCodes :
     D91
     D92
     D93
-    D169
-    D170
-    D171
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+*************************************************************
+
+*************************************************************
+Generating : Ground Layer
+      File : MainBoard.G1
+
+    Adding Layer      : Ground Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D71
+    D75
+    D118
+    D129
+    D135
+    D136
+    D137
+    D142
+    D143
+*************************************************************
+
+*************************************************************
+Generating : Signal MidTop Layer
+      File : MainBoard.G2
+
+    Adding Layer      : Signal MidTop Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D15
+    D20
+    D71
+    D75
+    D118
+    D132
+    D133
+    D135
+    D136
+    D137
+    D138
+    D142
+    D144
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : MainBoard.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D13
+    D14
+    D18
     D172
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : MainBoard.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Signal MidBottom Layer
+      File : MainBoard.G3
+
+    Adding Layer      : Signal MidBottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D71
+    D75
+    D118
+    D129
+    D133
+    D135
+    D136
+    D137
+    D142
+    D143
+*************************************************************
+
+*************************************************************
+Generating : Power Layer
+      File : MainBoard.G4
+
+    Adding Layer      : Power Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D75
+    D118
+    D133
+    D135
+    D136
+    D142
+*************************************************************
+
+*************************************************************
+Generating : Bottom Signal Layer
+      File : MainBoard.GBL
+
+    Adding Layer      : Bottom Signal Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D14
+    D15
+    D20
+    D71
+    D74
+    D75
+    D79
+    D83
+    D84
+    D88
+    D91
+    D96
+    D97
+    D103
+    D116
+    D118
+    D122
+    D123
+    D127
+    D129
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : MainBoard.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
 *************************************************************
 
 *************************************************************
@@ -80,6 +292,9 @@ Generating : Top Solder
 
 
 Used DCodes :
+    D21
+    D22
+    D23
     D24
     D25
     D26
@@ -138,47 +353,13 @@ Used DCodes :
     D79
     D80
     D81
-    D82
-    D83
-    D84
-    D85
-    D86
-    D87
-    D88
-    D89
-    D90
-    D91
-    D92
-    D93
 *************************************************************
 
 *************************************************************
-Generating : Top Overlay
-      File : MainBoard.GTO
+Generating : Bottom Solder
+      File : MainBoard.GBS
 
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-*************************************************************
-
-*************************************************************
-Generating : Bottom Signal Layer
-      File : MainBoard.GBL
+    Adding Layer      : Bottom Solder
 
     Adding Layer      : Bottom Signal Layer
 
@@ -186,34 +367,32 @@ Generating : Bottom Signal Layer
 
 
 Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D18
+    D22
+    D23
+    D27
+    D30
+    D35
+    D36
+    D42
+    D55
+    D57
+    D61
+    D62
+    D66
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
     D79
-    D85
-    D86
-    D94
-    D95
-    D97
-    D98
-    D100
-    D101
-    D102
-    D104
-    D105
-    D111
-    D116
-    D117
-    D142
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
+    D80
+    D81
     D160
     D161
     D162
@@ -223,159 +402,8 @@ Used DCodes :
     D166
     D167
     D168
-*************************************************************
-
-*************************************************************
-Generating : Power Layer
-      File : MainBoard.G4
-
-    Adding Layer      : Power Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D85
-    D162
-    D163
-    D164
-*************************************************************
-
-*************************************************************
-Generating : Signal MidBottom Layer
-      File : MainBoard.G3
-
-    Adding Layer      : Signal MidBottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D85
-    D163
-*************************************************************
-
-*************************************************************
-Generating : Signal MidTop Layer
-      File : MainBoard.G2
-
-    Adding Layer      : Signal MidTop Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D163
-    D164
-*************************************************************
-
-*************************************************************
-Generating : Ground Layer
-      File : MainBoard.G1
-
-    Adding Layer      : Ground Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D79
-    D85
-    D86
-    D155
-    D163
-    D164
-*************************************************************
-
-*************************************************************
-Generating : Top Signal Layer
-      File : MainBoard.GTL
-
-    Adding Layer      : Top Signal Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D18
-    D79
-    D85
-    D86
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
-    D128
-    D129
-    D130
-    D131
-    D132
-    D133
-    D134
-    D135
-    D136
-    D137
-    D138
-    D139
-    D140
-    D141
-    D142
-    D143
-    D144
-    D145
-    D146
-    D147
-    D148
-    D149
-    D150
-    D151
-    D152
-    D153
-    D154
-    D155
-    D156
-    D157
-    D158
-    D159
-    D160
-    D161
-    D162
-    D163
-    D164
+    D169
+    D170
+    D171
 *************************************************************
 
