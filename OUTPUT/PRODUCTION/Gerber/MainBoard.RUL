@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: D:\MainBoard\PCB\MainBoard.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=Vias|Scope=Board|Minimum=-15.75
+RuleKind=Clearance|RuleName=Clearance_PGND|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_Edge_Mid|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance_Poly_Mid|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Clearance_Mid|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_Edge|Scope=Board|Minimum=9.84
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=5.91
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=SolderMaskExpansion|RuleName=MASK_0.05|Scope=Board|Minimum=1.97
+RuleKind=ShortCircuit|RuleName=NO_KZ|Scope=Board|Allowed=0
